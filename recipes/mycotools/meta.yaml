@@ -1,5 +1,5 @@
 {% set name = "mycotools" %}
-{% set version = "0.32.7" %}
+{% set version = "0.32.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mycotools-{{ version }}.tar.gz
-  sha256: c546759173597c9bd9497f2b92322c9c26722b98336c120c580d0028c59647ec
+  sha256: 884a4e708d809a313ca4ad2f2432f0868bd2c5bf28bbda9a4e0fa4118ab24ef5
 
 build:
   number: 1
